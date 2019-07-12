@@ -12,12 +12,12 @@ url="http://www.alice.org/"
 license=("custom")
 depends=('java-environment' 'mesa')
 options=(!emptydirs)
-source=("http://www.alice.org/downloads/2.4/${_realname}${_pkgver}.tar.gz" \
+source=("http://www.alice.org/wp-content/uploads/2017/05/${_realname}${_pkgver}.tar" \
   "${pkgname}" \
   "${pkgname}.png" \
 	"${pkgname}.desktop" \
 	"LICENSE")
-sha512sums=('7caf72e0550b3dfcf4a5b15118c495b5267f86ea7e975f692242fc794276c7b98833e6b304f8240d741d15fd33d8397f30d405709af86117ed9bdb5131790664'
+sha512sums=('c2b57218de19772441933d1a8120448c2c2a96847fdb3a9c305160ec4c7012b48749ff136002abbe41991ad4e51d0c9c7e562318f0f2b18595fd0e633b3a13a1'
             '2401cc32d57a3a531c8670ff97af5151857ea7cf4555dc5c231e9fcc0a3a14b7fd1b1a7b5fd7c141a5bc1d2823ff3aab901e28248be192a15f616434a86d64b2'
             '7d3473033a44b964c7a25f7387363a76fe3cccccc18732f72c6308b43c79dd7f2a546465e35fbd8625e5d68287f54807a1a2d29b9ed67793b9cc5a3f24261264'
             '8db4e9a8c2221b26dc9c0ce850206c9646b343cc839c46d9a21e43f87e0298cac97a1a362f22bdbef2d05329fb7c9662d6575560bc30c2cac9e304093cb881ba'
